@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    align-items: center;
+    padding: 30px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li a {
+    color: black;
+}
+
+.page1 .col h1 {
+    margin-top: 15%;
+    margin-left: 13%;
+    font-size: 5rem;
+}
+
+.page1 .col p {
+    margin-top: 15px;
+    margin-left: 13%;
+}
+
+header i {
+    margin-top: 10px;
+    margin-left: 6rem;
+    color: #40189D;
+    font-size: 24px;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+button {
+    background-color: #40189D;
+    color: white;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.page2 .col p {
+    width: 75%;
+    text-align: center;
+}
+
+
+.col-lg-3 {
+    height: 250px;
+    padding-top: 90px;
+    margin-top: 60px;
+}
+
+.col-lg-2 {
+    height: 300px;
+    width: 300px;
+    padding-top: 90px;
+    background-color: #40189D;
+    margin: 60px 75px;
+    border-radius: 10px;
+    color: white;
+}
+
+form {
+    background-color: #FBFBFB;
+}
+
+.icon {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.page6 i {
+    float: right;
+    color: black;
+    font-size: 20px;
+
+}
+
+.subscribe {
+    margin: 10% 10%;
+    padding: 8% 0px;
+    padding-left: 5%;
+    background: rgba(64, 24, 157, 0.1);
+    border-radius: 30px;
+}
+
+.subscribe button {
+    position: relative;
+    float: right;
+    margin-top: -73px
+}
+
+.subscribe input {
+    margin-left: 2%;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+    background-color: #070613;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px 2%;
+    font-size: 20px;
+   
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer h1 {
+    margin-left: 10%;
+    font-size: 5rem;
+}
+
+h4 a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 580px) {
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    form .row {
+        width: 100%;
+    }
+
+    .subscribe {
+        padding: 15% 0;
+    }
+    footer h4 {
+       margin-left: 5%;
+    }
+    
+}
