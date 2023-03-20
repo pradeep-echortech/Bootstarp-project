@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* body{
+    overflow-x: hidden;
+} */
+
 header {
     align-items: center;
     padding: 30px 10px;
@@ -73,6 +77,7 @@ button {
 
 form {
     background-color: #FBFBFB;
+    padding: 70px;
 }
 
 .icon {
@@ -137,20 +142,35 @@ h4 a {
     .nav ul {
         display: none;
     }
-
+    .page1 .col h1 {
+        font-size: 60px;
+    }
+    header i {
+        margin-left: 2rem;
+    } 
     .nav {
         justify-content: space-between;
     }
 
     form .row {
         width: 100%;
+        
+    }
+    form{
+        padding: 0;
     }
 
     .subscribe {
         padding: 15% 0;
     }
+
+    .subscribe button {
+        width: auto;
+    }
     footer h4 {
        margin-left: 5%;
     }
-    
+    footer h1 {
+        font-size: 4rem;
+     }
 }
