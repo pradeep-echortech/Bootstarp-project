@@ -18,6 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .nav ul li a {
     color: black;
 }
@@ -78,6 +79,16 @@ button {
 form {
     background-color: #FBFBFB;
     padding: 70px;
+    /* margin: 8% 10%; */
+
+}
+
+.page5 .container form {
+    margin: 8% 10%;
+}
+
+.page5 .container .row {
+    margin: 3% 15%;
 }
 
 .icon {
@@ -118,17 +129,20 @@ form {
 footer {
     background-color: #070613;
 }
+
 footer ul li {
     display: inline-block;
     list-style-type: none;
     padding: 25px 2%;
     font-size: 20px;
-   
+
 }
+
 footer ul li a {
     text-decoration: none;
     color: white;
 }
+
 footer h1 {
     margin-left: 10%;
     font-size: 5rem;
@@ -138,39 +152,79 @@ h4 a {
     color: white;
     text-decoration: none;
 }
+
 @media (max-width: 580px) {
     .nav ul {
         display: none;
     }
+
     .page1 .col h1 {
         font-size: 60px;
     }
+
     header i {
         margin-left: 2rem;
-    } 
+    }
+
     .nav {
         justify-content: space-between;
     }
 
     form .row {
         width: 100%;
-        
+
     }
-    form{
+
+    .page5 .container form {
+        margin: 50px 0px;
+    }
+
+    .page5 .container .row {
+        margin: 3% 5%;
+    }
+
+    form {
         padding: 0;
     }
 
     .subscribe {
+        margin: 10% 3%;
         padding: 15% 0;
     }
 
+    .subscribe h1 {
+        margin-left: 65px;
+    }
+
+    .subscribe p {
+        margin-left: 65px;
+    }
+
+    .subscribe input {
+        padding: 20px;
+    }
+
     .subscribe button {
-        width: auto;
+        margin-top: -57px
     }
+
     footer h4 {
-       margin-left: 5%;
+        margin-left: 5%;
     }
+
     footer h1 {
         font-size: 4rem;
-     }
+    }
+
+    button {
+        height: 50px;
+        width: 120px;
+    }
+
+    .col-lg-3 {
+        padding-top: 40px;
+        margin-top: 20px;
+    }
+
+    .col-lg-2 {}
 }
